@@ -1,19 +1,35 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Assistant', sans-serif;
+  }
+
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Assistant', sans-serif;
     font-size: 16px;
     background-color: #1d1a19;
     color: aliceblue;
 }
 
+.hero-img {
+    background-image: url(img/_DSF2506comp.jpg);
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
 .logo {
     margin: 1rem;
-    font-size: 1.5rem;
+    font-size: 2rem;
+    font-weight: 200;
 }
 
 .navbar {
     display: flex;
-    
     font-size: .8rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
 }
 
 
@@ -23,17 +39,20 @@ body {
     margin: auto;
 }
 
-.page-link {
-    margin: 1rem;
-}
-
-.socials {
+.links {
     margin-left: auto;
     align-self: center;
 }
 
-.socials > a {
-    margin: 1rem;
+.links > a {
+    margin-left: 1rem;
+    font-weight: 200;
+    font-size: 1rem;
+    transition-duration: 0.4s;
+}
+
+.links > a:hover {
+    opacity: 50%;
 }
 
 a {
@@ -44,27 +63,33 @@ a {
 .home-content {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: start;
     margin-top: 5rem;
-    text-align: center;
+    margin-left: 6rem;
+    text-align: left;
 }
 
 #slogan {
     font-size:4rem;
+    font-weight: 200;
+    margin-bottom: 1rem;
 }
 
 #shop-now-btn {
     background-color: aliceblue;
     border: none;
     border-radius: .2rem;
-    padding: 1.5rem;
-    width: 12rem;
-    font-family:'Poppins', sans-serif;
+    padding: 1.0rem;
+    width: 8rem;
+    font-family: 'Assistant', sans-serif;
     font-size: 1rem ;
+    font-weight: 200;
     transition-duration: 0.4s;
     cursor: pointer;
+    opacity: 90;
 }
 
 #shop-now-btn:hover {
     opacity: 50%;
 }
+
