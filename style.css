@@ -1,11 +1,11 @@
 body, html {
     height: 100%;
     margin: 0;
-    font-family: 'Assistant', sans-serif;
+    font-family: 'Poppins', sans-serif;
   }
 
 body {
-    font-family: 'Assistant', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 16px;
     background-color: #1d1a19;
     color: aliceblue;
@@ -21,8 +21,8 @@ body {
 
 .logo {
     margin: 1rem;
-    font-size: 2rem;
-    font-weight: 200;
+    font-size: 1.5rem;
+    font-weight: 300;
 }
 
 .navbar {
@@ -47,7 +47,7 @@ body {
 .links > a {
     margin-left: 1rem;
     font-weight: 200;
-    font-size: 1rem;
+    font-size: .80rem;
     transition-duration: 0.4s;
 }
 
@@ -71,8 +71,9 @@ a {
 
 #slogan {
     font-size:4rem;
-    font-weight: 200;
+    font-weight: 500;
     margin-bottom: 1rem;
+    line-height: 4rem;
 }
 
 #shop-now-btn {
@@ -81,7 +82,7 @@ a {
     border-radius: .2rem;
     padding: 1.0rem;
     width: 8rem;
-    font-family: 'Assistant', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 1rem ;
     font-weight: 200;
     transition-duration: 0.4s;
