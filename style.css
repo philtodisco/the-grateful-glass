@@ -32,13 +32,6 @@ body {
     margin-right: 2rem;
 }
 
-
-.pages-top {
-    text-align: center;
-    width: 62.5vw;
-    margin: auto;
-}
-
 .links {
     margin-left: auto;
     align-self: center;
@@ -67,6 +60,7 @@ a {
     margin-top: 5rem;
     margin-left: 6rem;
     text-align: left;
+    /* margin-right: 50vh; */
 }
 
 #slogan {
