@@ -21,13 +21,12 @@ body {
 
 .logo {
     margin: 1rem;
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: 300;
 }
 
 .navbar {
     display: flex;
-    font-size: .8rem;
     margin-left: 2rem;
     margin-right: 2rem;
 }
@@ -40,7 +39,7 @@ body {
 .links > a {
     margin-left: 1rem;
     font-weight: 200;
-    font-size: .80rem;
+    font-size: 1rem;
     transition-duration: 0.4s;
 }
 
@@ -57,25 +56,24 @@ a {
     display: flex;
     flex-direction: column;
     align-items: start;
-    margin-top: 5rem;
-    margin-left: 6rem;
+    margin-top: 7rem;
+    margin-left: 8rem;
     text-align: left;
-    /* margin-right: 50vh; */
 }
 
 #slogan {
-    font-size:4rem;
+    font-size: 6rem;
     font-weight: 500;
     margin-bottom: 1rem;
-    line-height: 4rem;
+    line-height: 6rem;
 }
 
 #shop-now-btn {
     background-color: aliceblue;
     border: none;
     border-radius: .2rem;
-    padding: 1.0rem;
-    width: 8rem;
+    padding: 1.5rem;
+    width: 9rem;
     font-family: 'Poppins', sans-serif;
     font-size: 1rem ;
     font-weight: 200;
